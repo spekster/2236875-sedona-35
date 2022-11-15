@@ -31,7 +31,6 @@
                 </li>
                 <li class="navigation-item heart-item">
                   <img src="images/heart.svg" class="navigation-link-heart" alt="избранное.">
-                  <p class="rectangle"></p>
                   <p class="navigation-more">12</p>
                   </li>
               <li class="navigation-item-button">
@@ -45,7 +44,7 @@
           <form class="catalog-filter-group-main" action="https://echo.htmlacademy.ru/">
     <h1 class="main-text">Гостиницы Седоны</h1>
     <div class="breadcrubs">
-    <img class="house-icon" src="images/house icon.svg">
+    <img class="house-icon" src="images/house-icon.svg">
     <img class="strelka" src="images/strelka.svg">
     <a class="house-link" href="#">Гостиницы</a>
     </div>
@@ -74,7 +73,6 @@
             </ul>
           </div>         
           </fieldset>
-
             <fieldset class="catalog-filter-group2">
               <legend class="catalog-filter-title2">Тип Жилья:</legend>
               <div class="container-input-radio">
@@ -105,10 +103,13 @@
         <p class="price">Стоимость,₽:</p>
          <div class="container-price">
             <input class="price-amount" type="text" name="amount" id="price-min" value="0">
+            <p class="price-more">от</p>
             <label class="visually-hidden" for="price-min">Минимальная цена.</label>
             <input class="price-amount2" type="text" name="amount2" id="price-max" value="9000">
+            <p class="price-more">до</p>
             <label class="visually-hidden" for="price-max">Максимальная цена.</label>
-          </label>
+            
+          
 
 
           <div class="range">
@@ -141,13 +142,16 @@
           </select>
      <div class="view-catalog">
 <a href="#" type="submit" class="view-button">
-<img class="view" src="images/vector catalog.svg">  
+<img class="view" src="images/vector-catalog.svg"> 
+<span class="visually-hidden">сортировка.</span> 
 </a>
 <a href="#" type="submit" class="view-button">
-<img class="view" src="images/vector catalog2.svg">  
+<img class="view" src="images/vector-catalog2.svg">  
+<span class="visually-hidden">сортировка.</span> 
 </a>
 <a href="#" type="submit" class="view-button">
-<img class="view" src="images/vector catalog3.svg">  
+<img class="view" src="images/vector-catalog3.svg"> 
+<span class="visually-hidden">сортировка.</span>  
 </a>
      </div>
       <ul class="section-hotel">
@@ -240,7 +244,7 @@
   </li>
 </ul>
 </div>
-<section class="newsletter">
+<section class="newsletter2">
   <div class="background-subscribe2">
   <h2 class="page-subscribe-title2">Подпишитесь на рассылку</h2>
   <p class="page-subscribe-subtitle2">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
@@ -284,7 +288,8 @@
           </li>
         </ul>
     <a class="contacts-phone" href="tel:+78005558628" >+7 (812) 812-12-12</a>
-    <a class="htmlacademy-link" href="https://htmlacademy.ru/" >
+    <a class="htmlacademy-link" id="academy" href="https://htmlacademy.ru/" >
+    <span class="visually-hidden">htmlacademy.ru</span>
       <svg width="115" height="34" viewBox="0 0 115 34" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 13.2564V15.8564H2.5V13.2564H0Z"/>
         <path d="M11.6 4.85645C10 4.85645 8.8 5.55645 8 6.55645H7.9V0.356445H5.9V15.8564H7.9V10.5564C7.9 8.45645 9.2 6.95645 11.2 6.95645C13 6.95645 14.1 8.35645 14.1 10.1564V15.8564H16.1V9.75644C16.2 6.75644 14.3 4.85645 11.6 4.85645Z"/>
