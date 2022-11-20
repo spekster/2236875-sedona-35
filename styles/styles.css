@@ -222,7 +222,6 @@ body {
 .title {
 	background-color: #ffffff;
 	width: 1200px;
-	height: 282px;
 	margin-top: -18px;
 }
 
@@ -235,7 +234,6 @@ body {
 	line-height: 36px;
 	padding: 69px 240px 0px;
 	text-transform: uppercase;
-	height: 72px;
 	width: 720px;
 	margin: 0;
 }
@@ -248,11 +246,9 @@ body {
 	line-height: 26px;
 	text-align: center;
 	color: #333333;
-	padding-left: 251px;
-	padding-right: 251px;
 	margin: 0;
 	width: 698px;
-	padding-top: 25px;
+	padding: 25px 251px 90px 251px;
 }
 
 .page-header-logo {
@@ -760,7 +756,7 @@ position: absolute;
 	width: 1200px;
 	height: 414.86px;
 	margin-top: 2px;
-	background-color: #245799;
+	background-color: #82B3D3;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-image: url("../images/subscribe.jpg");
@@ -773,7 +769,7 @@ position: absolute;
 	align-items: center;
 	width: 1200px;
 	height: 414.86px;
-	background-color: #245799;
+	background-color: #82B3D3;
 }
 
 .background-subscribe2 {
@@ -1067,7 +1063,7 @@ position: absolute;
 	align-items: flex-start;
 	gap: 10px;
 	height: 412px;
-	background-color: #245799;
+	background-color: #82B3D3;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: url("../images/bacground-catalog.jpg");
@@ -2357,7 +2353,7 @@ border-radius: 4px 0px 0px 4px;
 
 .navigation-more {
     position: absolute;
-	font-family: 'PT Sans' sans-serif;
+	font-family: inherit;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 10px;
