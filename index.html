@@ -4,35 +4,39 @@
         <meta charset="utf-8">
         <title>Седона</title>
         <link rel="stylesheet" href="styles/styles.css">
+        <link rel="icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="images/favicon.png">
     </head>
     <body>
         <header class="page-header">        
             <nav class="navigation">
               <a class="navigation-logo" href="index.html">
-                <img class="page-header-logo" src="images/logo-sedona.png" alt="Логотип Седоны." width="140" height="70">
+                <img class="page-header-logo" src="images/logo-sedona.svg" alt="Логотип Седоны." width="140" height="70">
               </a>
                 <ul class="navigation-list">
-                    <li class="navigation-item">
-                    <a class="navigation-link-main">Главная</a>
-                    <p class="line"></p>
+                    <li class="navigation-main">
+                    <a class="navigation-link-main navigation-current navigation-link">Главная</a> 
                     </li>
-                    
-                    <li class="navigation-item">
-                    <a class="navigation-link-information" href="#">О Седоне</a>
+                    <li class="navigation-info">
+                    <a class="navigation-link-information navigation-link" href="#">О Седоне</a>
                     </li>
-                    <li class="navigation-item">
-                    <a class="navigation-link-hotel" href="catalog.html">Гостиницы</a>
+                    <li class="navigation-hotel">
+                    <a class="navigation-link-hotel navigation-link" href="catalog.html">Гостиницы</a>
                     </li>
                   </ul>
                   <ul class="navigation-list2">
                     <li class="navigation-item search-item">
                       <a href="#">
-                      <img src="images/search.svg"  class="navigation-link-search" alt="поиск."> 
+                        <svg class="navigation-link-search" width="19" height="19" viewBox="0 0 19 19" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M18.5 17.0083L14.8 13.3287C15.8 12.0359 16.5 10.3453 16.5 8.4558C16.5 4.08011 12.9 0.5 8.5 0.5C4.1 0.5 0.5 4.17956 0.5 8.55525C0.5 12.9309 4.1 16.511 8.5 16.511C10.3 16.511 12 15.9144 13.4 14.8204L17.1 18.5L18.5 17.0083ZM8.5 14.5221C5.2 14.5221 2.5 11.837 2.5 8.55525C2.5 5.27348 5.2 2.5884 8.5 2.5884C11.8 2.5884 14.5 5.27348 14.5 8.55525C14.5 11.837 11.8 14.5221 8.5 14.5221Z"/>
+                          </svg>   
                       </a>
                     </li>
                       <li class="navigation-item heart-item">
                         <a href="#">
-                        <img src="images/heart.svg" class="navigation-link-heart" alt="избранное.">
+                          <svg class="navigation-link-heart" width="18" height="17" viewBox="0 0 18 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.9 17C8.6 17 8.3 16.9 8.1 16.6C2.7 10.5 1.4 9.1 1.1 8.7C0.4 7.8 0 6.6 0 5.4C0 2.4 2.4 0 5.5 0C6.8 0 8 0.5 9 1.3C10 0.5 11.3 0 12.5 0C15.5 0 18 2.4 18 5.4C18 6.7 17.5 7.9 16.7 8.8L9.7 16.7C9.5 16.9 9.3 17 8.9 17ZM2.9 7.5C3.2 7.9 6.4 11.5 9 14.4L15.2 7.4C15.7 6.9 15.9 6.2 15.9 5.4C15.9 3.6 14.4 2.1 12.6 2.1C11.6 2.1 10.6 2.6 9.9 3.4C9.6 3.7 9.3 3.8 9 3.8C8.7 3.8 8.4 3.6 8.2 3.4C7.5 2.6 6.5 2.1 5.5 2.1C3.7 2.1 2.2 3.6 2.2 5.4C2.1 6.3 2.5 7 2.9 7.5C2.8 7.5 2.8 7.5 2.9 7.5Z"/>
+                            </svg>                                            
                         <p class="navigation-more">12</p>
                       </a>
                         </li>
@@ -44,66 +48,85 @@
             <img class="welcome" src="images/welcome.png" alt="welcome to the gorgeous sedona because the grand canyon lucks.">         
         </header>
         <main class="page-index">
-            <img src="images/vector-1.png"  class="vector" >
+            <p class="vector" alt=""></p>
           <div class="title">
-                <h1 class="heading" >Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
+                <h1 class="heading" >Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
                 <p class="subtitle" >Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
               </div>
                 
                 <section class="advantages">
+                  <h2 class="visually-hidden">Преимущества.</h2>
           <ul class="advantages-list">
-            <div class="more-item">
-            <li class="advantages-item1">Настоящий городок</li>
-            <img class="more1" src="images/rectangle-125.png" width="60" height="2">
+            <li class="more-item">
+              <div>
+            <p class="advantages-item1">Настоящий городок</p>
+            <p class="more1"></p>
             <p class="advantages-more1">Седона — не аттракцион для<br> туристов, там течёт своя<br> жизнь</p> 
-          <img src="images/photo-1.jpg" alt="Городок в Седоне." class="images_one">
-        </div> 
-        <div class="more-item2">
-            <li class="advantages-item2">Небольшая площадь</li>
-            <img class="more2" src="images/rectangle-125-2.png" width="60" height="2">
+            </div>
+            <img src="images/photo-1.jpg" alt="Городок в Седоне." class="images_one">
+        </li>
+        <li class="more-item2">
+          <div>
+            <p class="advantages-item2">Небольшая площадь</p>
+            <p class="more2"></p>
             <p class="advantages-more2">Все достопримечательности<br> находятся очень близко</p>
-            </div>
-            <div class="more-item3">
-            <li class="advantages-item3">Красивая дорога</li>
-            <img class="more3" src="images/rectangle-125-1.png" width="60" height="2">         
+          </div>
+        </li>
+            <li class="more-item3">
+            <div>
+            <p class="advantages-item3">Красивая дорога</p>
+            <p class="more3"></p>        
             <p class="advantages-more3">Ехать в Седону из Лас-Вегаса<br> совсем не скучно!</p>
-            </div>
-            <div class="more-item4">
-            <li class="advantages-item4">Мало туристов</li>
-            <img class="more4" src="images/rectangle-125-4.png" width="60" height="2">
-            <p class="advantages-more4">Большинство едет в Гранд<br> Каньон и толпится там</p>  
-            </div>
-            <div class="more-item5">      
-            <li class="advantages-item5">Там есть мост дьявола</li>
-            <img class="more5" src="images/rectangle-125-3.png" width="60" height="2">
+          </div>
+            </li>
+            <li class="more-item4">
+            <div>
+            <p class="advantages-item4">Мало туристов</p>
+            <p class="more4"></p>
+            <p class="advantages-more4">Большинство едет в Гранд<br> Каньон и толпится там</p> 
+          </div> 
+            </li>
+            <li class="more-item5">  
+            <div>    
+            <p class="advantages-item5">Там есть<br> мост дьявола</p>
+            <p class="more5"></p>
             <p class="advantages-more5">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
+          </div>
             <img src="images/photo-2.jpg" alt="Гранд-Каньон." width="800" height="384" class="images_two">
-          </div>  
+            </li>  
           </ul>
         </section>
         <section class="advantages2">
+          <h2 class="visually-hidden">Преимущества.</h2>
           <ul class="advantages-list2">
-            <div class="house">
-            <li class="advantages-items1">Жильё</li>
-            <img class="image3" src="images/vector-6.svg" width="75" height="72">
+            <li class="house">
+            <div>
+            <p class="image3"></p>
+            <p class="advantages-items1">Жильё</p>
             <p class="advantages-mores1">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино</p>  
-            </div>
-            <div class="food">
-            <li class="advantages-items2">Еда</li>
-            <img class="image4" src="images/food.svg" width="74" height="70">
+          </div>
+            </li>
+            <li class="food">
+            <div>
+            <p class="image4"></p>
+            <p class="advantages-items2">Еда</p>
             <p class="advantages-mores2">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!</p>
-            </div>
-            <div class="souvenir"> 
-            <li class="advantages-items3">Сувениры</li>
-            <img class="image5" src="images/vector-5.svg" width="64" height="76">
+          </div>
+            </li>
+            <li class="souvenir"> 
+            <div>
+            <p class="image5"></p>
+            <p class="advantages-items3">Сувениры</p>
             <p class="advantages-mores3">Не только китайского,<br> но и настоящего местного<br> производства!</p>
-            </div>
+          </div>
+            </li>
           </ul>
         </section>
             <section class="interesting-list" >
+              <h2 class="visually-hidden">Поиск гостиницы.</h2>
             <h2 class="interesting-item">Заинтересовались?</h2>
             <p class="interesting-item-more">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            <a href="#" class="button button-search-hotel search-text" type="button">ПОИСК ГОСТИНИЦЫ В седоне</a>
+            <a href="#" class="button button-search-hotel search-text">ПОИСК ГОСТИНИЦЫ В седоне</a>
             </section>
 
             <section class="newsletter">
@@ -113,14 +136,15 @@
                 <input class="field subscribe-button-email" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
                 <label class="visually-hidden" for="newsletter-email">Email.</label>
                 <button class="button subscribe-button" type="submit">
-                  <span type="submit" class="subscribe-button-item">Подписаться</span>
+                  <span class="subscribe-button-item">Подписаться</span>
                 </button>
               </form> 
             </section>
             </main>
           </body>
        <footer class="page-footer">
-        <section class="footer-social">  
+        <section class="footer-social"> 
+          <h2 class="visually-hidden">Подвал.</h2> 
           <ul class="footer-social-list">
             <li class="footer-social-item">
               <a class="footer-social-link footer-social-vk" href="#">
@@ -167,15 +191,18 @@
       </a>
       </section>
       </footer>
+    
       <div class="modal-container modal-container-close">
         <div class="modal modal-auth">
-          <button class="modal-close-button">
-            <span class="close-button"></span>
+          <button class="modal-close-button" type="button">
+            <svg class="close-button" width="15" height="15" viewBox="0 0 15 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.4905 1.78288L13.1982 0.49057L7.49048 6.19826L1.78279 0.49057L0.490479 1.78288L6.19817 7.49057L0.490479 13.1983L1.78279 14.4906L7.49048 8.78288L13.1982 14.4906L14.4905 13.1983L8.78279 7.49057L14.4905 1.78288Z"/>
+              </svg>              
             <span class="visually-hidden">Закрыть.</span>
           </button>
           <section class="modal-content">
             <h2 class="modal-title">Поиск гостиницы в седоне</h2>
-            <form class="auth-form">
+            <form class="auth-form" action="https://echo.htmlacademy.ru/">
               <div class="field-group1">
                 <label class="data-text">Дата Заезда:</label>
                 <label class="visually-hidden" for="data-arrival">Дата заезда.</label>
@@ -194,8 +221,8 @@
                   <path d="M12.5 10C12.8 10 13 9.8 13 9.5C13 9.2 12.8 9 12.5 9C12.2 9 12 9.2 12 9.5C12 9.8 12.2 10 12.5 10Z" fill="black"/>
                   <path d="M12.5 11C12.2 11 12 11.2 12 11.5C12 11.8 12.2 12 12.5 12C12.8 12 13 11.8 13 11.5C13 11.2 12.8 11 12.5 11Z" fill="black"/>
                   </svg>
-                  <label class="visually-hidden" for="data-arrival">Выбрать дату.</label>
                 </button>
+                <label class="visually-hidden" for="data-arrival">Выбрать дату.</label>
                 <p class="error">Мы не можем отправить вас в прошлое</p>
               </div>
               <div class="field-group2">
@@ -216,8 +243,8 @@
                     <path d="M12.5 10C12.8 10 13 9.8 13 9.5C13 9.2 12.8 9 12.5 9C12.2 9 12 9.2 12 9.5C12 9.8 12.2 10 12.5 10Z" fill="black"/>
                     <path d="M12.5 11C12.2 11 12 11.2 12 11.5C12 11.8 12.2 12 12.5 12C12.8 12 13 11.8 13 11.5C13 11.2 12.8 11 12.5 11Z" fill="black"/>
                     </svg>
-                    <label class="visually-hidden" for="data-departure">Выбрать дату.</label>
                   </button>
+                  <label class="visually-hidden" for="data-departure">Выбрать дату.</label>
                 <p class="no-error">На эти даты есть свободные номера. Пока есть</p>
               </div>
                <div class="field-group-list">
@@ -226,42 +253,42 @@
               <label class="visually-hidden" for="plus-minus">Взрослые.</label>
              <input class="plus-minus" type="text" id="plus-minus" value="2" name="plus-minus">
              <button class="btn-minus" type="button">
-              <label class="visually-hidden" for="plus-minus">Убавить.</label>
               <svg class="minus" width="14" height="2" viewBox="0 0 14 2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 0L0 2L14 2V0L0 0Z"/>
                 </svg>                
              </button>
+             <label class="visually-hidden" for="plus-minus">Убавить.</label>
              <button class="btn-plus" type="button">
-              <label class="visually-hidden" for="plus-minus">Добавить.</label>
               <svg class="plus" width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z"/>
                 </svg>                
              </button>
+             <label class="visually-hidden" for="plus-minus">Добавить.</label>
              </p>
               <p class="field-group_2"> 
                 <label class="text-plus-minus" for="plus-minus-baby">Дети:</label>
                 <label class="visually-hidden" for="plus-minus-baby">Дети.</label>
                 <input class="plus-minus" type="text" id="plus-minus-baby" value="2" name="plus-minus">
                 <button class="btn-minus" type="button">
-                  <label class="visually-hidden" for="plus-minus-baby">Добавить.</label>
                   <svg class="minus" width="14" height="2" viewBox="0 0 14 2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L0 2L14 2V0L0 0Z"/>
                     </svg>                
                  </button>
+                 <label class="visually-hidden" for="plus-minus-baby">Добавить.</label>
                  <button class="btn-plus" type="button">
-                  <label class="visually-hidden" for="plus-minus-baby">Добавить.</label>
                   <svg class="plus" width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z"/>
                     </svg>                
                  </button>
-                <span clas="form-label">
+                 <label class="visually-hidden" for="plus-minus-baby">Добавить.</label>
+                <span class="form-label">
                 <span class="tooltip">
                   <button class="tooltip-toggle" type="button">
-                    <b class="rectangle-info"></b>
-                <img class="baby-info" src="images/baby-info.svg">
+                    
+                <img class="baby-info" src="images/baby-info.svg" alt="информация.">
                   </button>
                    <span class="tooltip-main">
-                    <img src="images/tooltip-more.svg" class="tooltip-icon">
+                    <img src="images/tooltip-more.svg" alt="подсказка." class="tooltip-icon">
                   <span class="tooltip-content">
                   
                   <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
@@ -272,7 +299,7 @@
               </p>
             </div>
               <button class="search-hotel-data">
-                <p class="data-search">Найти</p>
+                <span class="data-search">Найти</span>
                 <span class="visually-hidden">Найти.</span>
               </button>
 
