@@ -7,7 +7,6 @@
 <link rel="icon" href="favicon.ico">
   <link rel="icon" type="image/png" href="images/favicon.png">
 </head>   
-
 <body class="body-catalog">
   <header class="catalog-header">
       <nav class="navigation">
@@ -96,21 +95,20 @@
             <fieldset class="catalog-filter-group2">
               <legend class="catalog-filter-title2">Тип Жилья:</legend>
               <div class="container-input-radio">
-
               <ul class="catalog-filter-list">
-                <li class="catalog-filter-item">
+                <li class="catalog-filter-item2">
                   <input class="control-radio" type="radio" name="housing" value="hotel" id="hotel" checked>
                   <label class="label-radio" for="hotel">              
                   <span class="control-text2">Гостиница</span>
                   </label>
                 </li>
-                <li class="catalog-filter-item">
-                 <input class="control-radio" type="radio" name="housing" value="motel" id="motel">
+                <li class="catalog-filter-item2">
+                  <input class="control-radio" type="radio" name="housing" value="motel" id="motel">
                   <label class="label-radio" for="motel">
                   <span class="control-text2">Мотель</span>
                   </label>
                 </li>
-                <li class="catalog-filter-item">
+                <li class="catalog-filter-item2">
                   <input class="control-radio" type="radio" name="housing" value="apartments" id="apartments">
                   <label class="label-radio" for="apartments">
                   <span class="control-text2">Апартаменты</span>
@@ -121,7 +119,7 @@
             </fieldset>  
           <div class="price-list">
         <p class="price">Стоимость, ₽:</p>
-         <div class="container-price">
+          <div class="container-price">
             <input class="price-amount" type="text" name="amount" id="price-min" value="0">
             <p class="price-more">от</p>
             <label class="visually-hidden" for="price-min">Минимальная цена.</label>
@@ -154,7 +152,7 @@
             <option value="cheap">Сначала дешевые</option>
             <option value="expensive">Сначала дорогое</option>
           </select>
-     <div class="view-catalog">
+      <div class="view-catalog">
 <a href="#" class="view-button">
 <img class="view" src="images/vector-catalog.svg" alt="сортировка."> 
 <span class="visually-hidden">Показать плитками.</span> 
@@ -167,7 +165,7 @@
 <img class="view" src="images/vector-catalog3.svg" alt="сортировка."> 
 <span class="visually-hidden">Показать списком.</span>  
 </a>
-     </div>
+      </div>
       <ul class="section-hotel">
         <li class="hotel-list1">
           <img class="background-hotel-item" src="images/hotel-1.png" alt="горы.">
@@ -175,8 +173,8 @@
 <p class="hotel-name">Гостиница</p>      
 <b class="hotel-price">От 4000 ₽</b>
 <div class="button-section">
-<a href="#" class="button button-detail detail"><p>Подробнее</p></a> 
-  <a href="#" class="button button-favourites favourites"><p>В избранное</p></a>
+<button type="button" class="button button-detail detail"><p>Подробнее</p></button> 
+  <button type="button" class="button button-favourites favourites"><p>В избранное</p></button>
 </div>
 <div class="rating-section">
 <img src="images/star.svg" class="star" alt="рейтинг.">  
@@ -192,8 +190,8 @@
 <p class="hotel-name">Гостиница</p>       
 <b class="hotel-price">От 5000 ₽</b>
 <div class="button-section">
-<a href="#" class="button button-detail detail"><p>Подробнее</p></a> 
-  <a href="#" class="button button-favourites-green favourites-green"><p>В избранном</p></a>
+<button type="button" class="button button-detail detail"><p>Подробнее</p></button> 
+  <button type="button" class="button button-favourites-green favourites-green"><p>В избранном</p></button>
 </div>
 <div class="rating-section">
   <img src="images/star.svg" class="star" alt="рейтинг.">  
@@ -209,8 +207,8 @@
 <p class="hotel-name">Гостиница</p>
 <b class="hotel-price">От 2500 ₽</b>
 <div class="button-section">
-<a href="#" class="button button-detail detail"><p>Подробнее</p></a> 
-  <a href="#" class="button button-favourites favourites"><p>В избранное</p></a>
+<button type="button" class="button button-detail detail"><p>Подробнее</p></button> 
+  <button type="button" class="button button-favourites favourites"><p>В избранное</p></button>
 </div>
 <div class="rating-section">
   <img src="images/star.svg" class="star" alt="рейтинг.">  
@@ -222,11 +220,11 @@
     <li class="hotel-list4">
       <img class="background-hotel-item" src="images/hotel-4.png" alt="горы." width="300" height="212">
   <h3 class="card">GreenTree Inn</h3>
- <p class="hotel-name">Гостиница </p>       
- <b class="hotel-price">От 1500 ₽</b>
- <div class="button-section">
-<a href="#" class="button button-detail detail"><p>Подробнее</p></a> 
-<a href="#" class="button button-favourites favourites"><p>В избранное</p></a>
+<p class="hotel-name">Гостиница </p>       
+<b class="hotel-price">От 1500 ₽</b>
+<div class="button-section">
+<button type="button" class="button button-detail detail"><p>Подробнее</p></button> 
+<button type="button" class="button button-favourites favourites"><p>В избранное</p></button>
 </div>
 <div class="rating-section">
   <img src="images/star.svg" class="star" alt="рейтинг.">  
@@ -323,5 +321,4 @@
     </section>
     </footer>
   </body>
- 
 </html>
