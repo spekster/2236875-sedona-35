@@ -30,6 +30,7 @@
                         <svg class="navigation-link-search" width="19" height="19" viewBox="0 0 19 19" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                           <path d="M18.5 17.0083L14.8 13.3287C15.8 12.0359 16.5 10.3453 16.5 8.4558C16.5 4.08011 12.9 0.5 8.5 0.5C4.1 0.5 0.5 4.17956 0.5 8.55525C0.5 12.9309 4.1 16.511 8.5 16.511C10.3 16.511 12 15.9144 13.4 14.8204L17.1 18.5L18.5 17.0083ZM8.5 14.5221C5.2 14.5221 2.5 11.837 2.5 8.55525C2.5 5.27348 5.2 2.5884 8.5 2.5884C11.8 2.5884 14.5 5.27348 14.5 8.55525C14.5 11.837 11.8 14.5221 8.5 14.5221Z"/>
                           </svg>   
+                          <p class="visually-hidden">поиск.</p>
                       </a>
                     </li>
                       <li class="navigation-item heart-item">
@@ -38,22 +39,24 @@
                             <path d="M8.9 17C8.6 17 8.3 16.9 8.1 16.6C2.7 10.5 1.4 9.1 1.1 8.7C0.4 7.8 0 6.6 0 5.4C0 2.4 2.4 0 5.5 0C6.8 0 8 0.5 9 1.3C10 0.5 11.3 0 12.5 0C15.5 0 18 2.4 18 5.4C18 6.7 17.5 7.9 16.7 8.8L9.7 16.7C9.5 16.9 9.3 17 8.9 17ZM2.9 7.5C3.2 7.9 6.4 11.5 9 14.4L15.2 7.4C15.7 6.9 15.9 6.2 15.9 5.4C15.9 3.6 14.4 2.1 12.6 2.1C11.6 2.1 10.6 2.6 9.9 3.4C9.6 3.7 9.3 3.8 9 3.8C8.7 3.8 8.4 3.6 8.2 3.4C7.5 2.6 6.5 2.1 5.5 2.1C3.7 2.1 2.2 3.6 2.2 5.4C2.1 6.3 2.5 7 2.9 7.5C2.8 7.5 2.8 7.5 2.9 7.5Z"/>
                             </svg>                                            
                         <p class="navigation-more">12</p>
+                        <p class="visually-hidden">избранное.</p>
                       </a>
                         </li>
                     <li class="navigation-item-button">
                       <a class="button navigation-link-button" href="#"><p class="button-link-text">Хочу сюда!</p></a>
                     </li>
                 </ul>
-            </nav>
-            <img class="welcome" src="images/welcome.png" alt="welcome to the gorgeous sedona because the grand canyon lucks.">         
+            </nav>         
         </header>
+        <div class="background-main">
+          <img class="welcome" src="images/welcome.png" alt="welcome to the gorgeous sedona because the grand canyon lucks.">
+        </div>
         <main class="page-index">
             <p class="vector"></p>
           <div class="title">
                 <h1 class="heading" >Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
                 <p class="subtitle" >Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
               </div>
-                
                 <section class="advantages">
                   <h2 class="visually-hidden">Преимущества.</h2>
           <ul class="advantages-list">
@@ -128,7 +131,6 @@
             <p class="interesting-item-more">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
             <a href="#" class="button button-search-hotel search-text">ПОИСК ГОСТИНИЦЫ В седоне</a>
             </section>
-
             <section class="newsletter">
               <h2 class="page-subscribe-title">Подпишитесь на рассылку</h2>
               <p class="page-subscribe-subtitle">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
@@ -173,7 +175,7 @@
           </ul>
       <a class="contacts-phone" href="tel:+78005558628" >+7 (812) 812-12-12</a>
       <a class="htmlacademy-link" href="https://htmlacademy.ru/" >
-        <span class="visually-hidden">htmlacademy.ru</span>
+        <span class="visually-hidden">htmlacademy.ru.</span>
         <svg width="115" height="34" viewBox="0 0 115 34" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 13.2564V15.8564H2.5V13.2564H0Z"/>
           <path d="M11.6 4.85645C10 4.85645 8.8 5.55645 8 6.55645H7.9V0.356445H5.9V15.8564H7.9V10.5564C7.9 8.45645 9.2 6.95645 11.2 6.95645C13 6.95645 14.1 8.35645 14.1 10.1564V15.8564H16.1V9.75644C16.2 6.75644 14.3 4.85645 11.6 4.85645Z"/>
@@ -191,7 +193,6 @@
       </a>
       </section>
       </footer>
-    
       <div class="modal-container modal-container-close">
         <div class="modal modal-auth">
           <button class="modal-close-button" type="button">
@@ -204,9 +205,8 @@
             <h2 class="modal-title">Поиск гостиницы в седоне</h2>
             <form class="auth-form" action="https://echo.htmlacademy.ru/">
               <div class="field-group1">
-                <label class="data-text">Дата Заезда:</label>
-                <label class="visually-hidden" for="data-arrival">Дата заезда.</label>
-                <input class="auth-form-field" type="text" value="27 апреля 2020" id="data-arrival" name="data-arrival" placeholder="Укажите дату">
+                <label class="data-text" for="data-arrival">Дата Заезда:</label>
+                <input class="auth-form-field" type="text" value="27 апреля 2020" id="data-arrival" name="data-arrival" placeholder="Укажите дату" required>
                 <button class="data_button data-icon" type="button">
                 <svg  width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M5.75 10C6.05 10 6.25 9.8 6.25 9.5C6.25 9.2 6.05 9 5.75 9C5.45 9 5.25 9.2 5.25 9.5C5.25 9.8 5.45 10 5.75 10Z" fill="black"/>
@@ -221,14 +221,14 @@
                   <path d="M12.5 10C12.8 10 13 9.8 13 9.5C13 9.2 12.8 9 12.5 9C12.2 9 12 9.2 12 9.5C12 9.8 12.2 10 12.5 10Z" fill="black"/>
                   <path d="M12.5 11C12.2 11 12 11.2 12 11.5C12 11.8 12.2 12 12.5 12C12.8 12 13 11.8 13 11.5C13 11.2 12.8 11 12.5 11Z" fill="black"/>
                   </svg>
+                  <span class="visually-hidden">Выбрать дату заезда.</span>
                 </button>
                 <label class="visually-hidden" for="data-arrival">Выбрать дату.</label>
                 <p class="error">Мы не можем отправить вас в прошлое</p>
               </div>
               <div class="field-group2">
-                <label class="data-text">Дата Выезда:</label>
-                <label class="visually-hidden" for="data-departure">Дата выезда.</label>
-                <input class="auth-form-field" type="text" value="1 сентября 2023" id="data-departure" name="data-departure" placeholder="Укажите дату">
+                <label class="data-text" for="data-departure">Дата Выезда:</label>
+                <input class="auth-form-field" type="text" value="1 сентября 2023" id="data-departure" name="data-departure" placeholder="Укажите дату" required>
                 <button class="data_button2 data-icon2" type="button">
                   <svg  width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.75 10C6.05 10 6.25 9.8 6.25 9.5C6.25 9.2 6.05 9 5.75 9C5.45 9 5.25 9.2 5.25 9.5C5.25 9.8 5.45 10 5.75 10Z" fill="black"/>
@@ -243,6 +243,7 @@
                     <path d="M12.5 10C12.8 10 13 9.8 13 9.5C13 9.2 12.8 9 12.5 9C12.2 9 12 9.2 12 9.5C12 9.8 12.2 10 12.5 10Z" fill="black"/>
                     <path d="M12.5 11C12.2 11 12 11.2 12 11.5C12 11.8 12.2 12 12.5 12C12.8 12 13 11.8 13 11.5C13 11.2 12.8 11 12.5 11Z" fill="black"/>
                     </svg>
+                    <span class="visually-hidden">Выбрать дату выезда.</span>
                   </button>
                   <label class="visually-hidden" for="data-departure">Выбрать дату.</label>
                 <p class="no-error">На эти даты есть свободные номера. Пока есть</p>
@@ -251,17 +252,19 @@
               <p class="field-group_1">
               <label class="text-plus-minus" for="plus-minus">Взрослые:</label>
               <label class="visually-hidden" for="plus-minus">Взрослые.</label>
-             <input class="plus-minus" type="text" id="plus-minus" value="2" name="plus-minus">
+             <input class="plus-minus" type="text" id="plus-minus" value="2" name="plus-minus" required>
              <button class="btn-minus" type="button">
               <svg class="minus" width="14" height="2" viewBox="0 0 14 2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 0L0 2L14 2V0L0 0Z"/>
-                </svg>                
+                </svg>  
+                <span class="visually-hidden">Убавить на 1.</span>              
              </button>
              <label class="visually-hidden" for="plus-minus">Убавить.</label>
              <button class="btn-plus" type="button">
               <svg class="plus" width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z"/>
-                </svg>                
+                </svg>  
+                <span class="visually-hidden">Добавить на 1.</span>               
              </button>
              <label class="visually-hidden" for="plus-minus">Добавить.</label>
              </p>
@@ -284,13 +287,11 @@
                 <span class="form-label">
                 <span class="tooltip">
                   <button class="tooltip-toggle" type="button">
-                    
                 <img class="baby-info" src="images/baby-info.svg" alt="информация.">
                   </button>
                    <span class="tooltip-main">
                     <img src="images/tooltip-more.svg" alt="подсказка." class="tooltip-icon">
                   <span class="tooltip-content">
-                  
                   <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
                   </span>
                    </span>
@@ -302,7 +303,6 @@
                 <span class="data-search">Найти</span>
                 <span class="visually-hidden">Найти.</span>
               </button>
-
             </form>
           </section>
         </div>

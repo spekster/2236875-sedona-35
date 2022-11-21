@@ -236,6 +236,7 @@ body {
 	text-transform: uppercase;
 	width: 720px;
 	margin: 0;
+	text-align: center;
 }
 
 .subtitle {
@@ -256,14 +257,14 @@ body {
 	position: absolute;
 }
 
-.page-index {
+.background-main {
 	background-image: url("../images/index-background.jpg");
 	color: black;
-	background-color: #ffffff;
+	background-color: #82B3D3;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	width: 1200px;
-	height: 3127px;
+	height: 485px;
 	text-align: center;
 }
 
@@ -271,12 +272,12 @@ body {
 	width: 458px;
 	height: 352px;
 	position: absolute;
-	margin-top: 35px;
-	margin-left: 371px;
+	margin-top: 52px;
+    margin-left: -229px;
 }
 
 .vector {
-	margin-top: 427px;
+	margin-top: -58px;
 	width: 1200px;
     height: 57px;
 	background-image: url("../images/vector-1.svg");
@@ -331,9 +332,9 @@ body {
     color: #FFFFFF;
     position: absolute;
     width: 230px;
-    height: 63px;
     padding: 29px 85px 0px 85px;
     margin: 0;
+	text-align: center;
 }
 
 .more-item2 {
@@ -375,9 +376,9 @@ body {
     color: #333333;
     position: absolute;
     width: 230px;
-    height: 42px;
     padding: 29px 85px 0px 85px;
     margin: 0;
+	text-align: center;
 }
 
 .more-item3 {
@@ -413,9 +414,9 @@ body {
     color: #333333;
     position: absolute;
     width: 230px;
-    height: 42px;
     padding: 29px 85px 0px 85px;
     margin: 0;
+	text-align: center;
 }
 
 .more3 {
@@ -458,9 +459,9 @@ body {
     color: #333333;
     position: absolute;
     width: 230px;
-    height: 42px;
     padding: 29px 85px 0px 85px;
     margin: 0;
+	text-align: center;
 }
 
 .more4 {
@@ -521,9 +522,9 @@ position: absolute;
     color: #FFFFFF;
     position: absolute;
     width: 230px;
-    height: 63px;
     padding: 29px 85px 0px 85px;
     margin: 0;
+	text-align: center;
 }
 
 .images_two {
@@ -554,6 +555,7 @@ position: absolute;
     color: #000000;
     padding: 30px 85px 0px;
     margin: 0;
+	text-align: center;
 }
 
 .image3 {
@@ -575,6 +577,7 @@ position: absolute;
     color: #333333;
     padding: 28px 85px 0px;
     margin: 0;
+	text-align: center;
 }
 
 .souvenir {
@@ -595,6 +598,7 @@ position: absolute;
     color: #000000;
     padding: 29px 85px 0px;
     margin: 0;
+	text-align: center;
 }
 
 .image5 {
@@ -616,6 +620,7 @@ position: absolute;
     color: #333333;
     padding: 29px 85px 0px;
     margin: 0;
+	text-align: center;
 }
 
 .food {
@@ -634,6 +639,7 @@ position: absolute;
     color: #000000;
     padding: 31px 85px 0px;
     margin: 0;
+	text-align: center;
 }
 
 .image4 {
@@ -655,6 +661,7 @@ position: absolute;
     color: #333333;
     padding: 29px 85px 0px;
     margin: 0;
+	text-align: center;
 }
 
 .interesting-list {
@@ -666,7 +673,6 @@ position: absolute;
 
 .interesting-item {
 	width: 297px;
-	height: 36px;
 	font-family: inherit;
 	font-style: normal;
 	font-weight: 700;
@@ -917,7 +923,7 @@ position: absolute;
 	width: 1200px;
 	height: 120px;
 	background-color: #FFFFFF;
-	margin-top: -4px;
+	margin-top: 417px;
 	position: relative;
 }
 
@@ -1157,7 +1163,6 @@ position: absolute;
 .catalog-filter-item {
 	display: flex;
 	width: 112px;
-	height: 20px;
     margin-bottom: 20px;
 }
 
@@ -1360,24 +1365,26 @@ color: white;
 }
 
 .arrow {
-	margin-top: -15px;
-    margin-left: 22.3px;
-    width: 6.39px;
-    height: 9.94px;
+	margin: 0;
+    margin-top: -23px;
+    margin-left: 23.3px;
+    top: 144px;
+    background-position: left;
     background-repeat: no-repeat;
     background-image: url(../images/arrow.svg);
 }
 
 .house-link {
-	font-family: inherit;
+    font-family: inherit;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
     text-decoration: none;
-    margin-left: 37.8px;
-    margin-top: -33px;
+    padding-left: 16.8px;
+    height: 20px;
+    width: 200px;
     position: absolute;
 }
 
@@ -1402,7 +1409,7 @@ color: white;
 	width: 549px;
 	height: 160px;
 	position: absolute;
-	margin-left: 511px;
+	margin-left: 514px;
 }
 
 .price {
@@ -1438,9 +1445,9 @@ color: white;
 	width: 1060px;
 	height: 160px;
 	margin-left: 67px;
-	margin-top: -5px;
+	margin-top: 8px;
 }
-
+	
 .price-amount {
 	flex-direction: row;
 	justify-content: space-between;
@@ -2392,7 +2399,7 @@ border-radius: 4px 0px 0px 4px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 14px 12px;
+	padding: 15px 14px;
 	gap: 10px;
 	width: 48px;
 	height: 48px;
