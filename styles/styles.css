@@ -4,15 +4,15 @@
 	font-weight: 400;
 	src: url("../fonts/ptsans-400.woff2") format("woff2");
 	font-display: swap;
-  }
-  
-  @font-face {
+}
+
+@font-face {
 	font-family: "PT Sans";
 	font-style: normal;
 	font-weight: 700;
 	src: url("../fonts/ptsans-700.woff2") format("woff2");
 	font-display: swap;
-  }
+}
 
 html {
 	display: flex;
@@ -49,6 +49,7 @@ body {
 
 .navigation {
 	width: 1200px;
+	display: flex;
 }
 
 .navigation-main {
@@ -83,7 +84,7 @@ body {
 	padding: 0px;
 	width: 337px;
 	height: 64px;
-	margin-left: 238px;
+	margin-left: 100px;
 	margin-top: 0px;
 }
 
@@ -94,9 +95,8 @@ body {
 	padding: 0px;
 	width: 268px;
 	height: 64px;
-	margin-top: -82px;
 	left: 902px;
-	margin-left: 862px;
+    margin: 0 70px 0 auto;
 }
 
 .navigation-link-main {
@@ -256,7 +256,6 @@ body {
 }
 
 .page-header-logo {
-	margin-left: 70px;
 	position: absolute;
 }
 
@@ -1552,6 +1551,8 @@ color: white;
 .navigation-logo {
 	width: 140px;
 	height: 70px;
+	display: block;
+	margin-left: 70px;
 }
 
 .button-submit {
@@ -2358,7 +2359,7 @@ border-radius: 4px 0px 0px 4px;
     padding: 0px;
     width: 337px;
     height: 64px;
-    margin-left: 238px;
+    margin-left: 100px;
     margin-top: 0px;
 }
 
